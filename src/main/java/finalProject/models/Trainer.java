@@ -14,7 +14,7 @@ public class Trainer {
 
     private long trainerID;
 
-
+    
     private String name;
 
     private String gym;

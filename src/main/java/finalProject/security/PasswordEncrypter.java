@@ -14,6 +14,7 @@ public class PasswordEncrypter {
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
         }
+        assert digest != null;
         byte[] encodedhash = digest.digest(
                 password.getBytes(StandardCharsets.UTF_8));
         return bytesToHex(encodedhash);

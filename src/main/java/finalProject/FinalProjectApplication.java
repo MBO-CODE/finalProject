@@ -20,7 +20,7 @@ public class FinalProjectApplication {
 
 	//TODO: fix for Cors Policy Error(Fixed);
 	@Configuration
-	public class CrossOriginConfig {
+	public static class CrossOriginConfig {
 
 		@Bean
 		public WebMvcConfigurer corsConfigurer() {
